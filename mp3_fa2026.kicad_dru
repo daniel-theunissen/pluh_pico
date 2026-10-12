@@ -1,0 +1,4 @@
+(version 1)
+(rule usb_skew
+  (condition "A.NetClass == 'USB'")
+  (constraint skew (max 20mil)))
