@@ -85,10 +85,6 @@
         [
           "lib_footprint_mismatch|84115000|99430000|618d1424-5c78-4b97-b39d-dc45369d24e2|00000000-0000-0000-0000-000000000000",
           "got rid of silkscreen - unnecessary"
-        ],
-        [
-          "lib_footprint_mismatch|93040199|98932999|0b5de1a1-08fe-4abf-a9c4-ac77d316fc50|00000000-0000-0000-0000-000000000000",
-          "fish"
         ]
       ],
       "meta": {
@@ -542,6 +538,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -731,7 +728,7 @@
         "uuid": "4930e8a3-0a58-4861-9c4c-0d8b2139987a"
       }
     ],
-    "used_designators": "X1,U1-2,S1-2,R1-12,L1,J1-4,D1-3,C1-16,#PWR1-47",
+    "used_designators": "#PWR1-47,C1-16,D1-3,J1-4,L1,R1-12,S1-2,U1-2,X1",
     "variants": []
   },
   "sheets": [
